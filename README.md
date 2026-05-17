@@ -1,8 +1,19 @@
 # global-it
 
-`global-it` is a GNOME Shell extension (GNOME 48+) that exposes exported DBus application menus in the top panel, with a Unity/macOS-style global menu workflow.
+[![Status](https://img.shields.io/badge/Status-NOT_FOR_TESTING-C0392B?style=flat-square)](#)
+[![Project State](https://img.shields.io/badge/State-Skeleton_Only-D68910?style=flat-square)](#)
+[![Author](https://img.shields.io/badge/Author-notyorch-2E86C1?style=flat-square)](https://github.com/notyorch)
 
-## What it does
+[![GNOME](https://img.shields.io/badge/GNOME-48%2B-4A86CF?style=flat-square&logo=gnome&logoColor=white)](https://www.gnome.org/)
+[![GJS](https://img.shields.io/badge/GJS-GNOME_JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://gjs.guide/)
+[![DBus](https://img.shields.io/badge/DBus-Menu_Integration-5C2D91?style=flat-square)](https://www.freedesktop.org/wiki/Software/dbus/)
+[![GTK](https://img.shields.io/badge/GTK-GTK3%20%2F%20GTK4-0E9F6E?style=flat-square&logo=gtk&logoColor=white)](https://www.gtk.org/)
+[![Wayland](https://img.shields.io/badge/Display-Wayland-1A1A1A?style=flat-square)](https://wayland.freedesktop.org/)
+[![Fedora](https://img.shields.io/badge/Tested_On-Fedora_Workstation-294172?style=flat-square&logo=fedora&logoColor=white)](https://fedoraproject.org/)
+
+`global-it` will be a GNOME Shell extension (GNOME 48+) that exposes exported DBus application menus in the top panel, with a Unity/macOS-style global menu workflow.
+
+## What it will do
 
 - Tracks focused windows via `global.display` and `Shell.WindowTracker`
 - Resolves menu exporters through `com.canonical.AppMenu.Registrar`
@@ -24,8 +35,6 @@ GTK4/libadwaita apps generally do **not** export classic DBusMenu trees required
 - Works without Ubuntu Unity patches
 - Uses only standard GNOME Shell APIs and session DBus
 - Actual menu availability depends on whether each app exports DBusMenu
-
-Detailed per-application results are tracked in [`COMPATIBILITY_MATRIX.md`](./COMPATIBILITY_MATRIX.md).
 
 ## Project layout
 
