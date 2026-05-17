@@ -9,7 +9,6 @@
 [![DBus](https://img.shields.io/badge/DBus-Menu_Integration-5C2D91?style=flat-square)](https://www.freedesktop.org/wiki/Software/dbus/)
 [![GTK](https://img.shields.io/badge/GTK-GTK3%20%2F%20GTK4-0E9F6E?style=flat-square&logo=gtk&logoColor=white)](https://www.gtk.org/)
 [![Wayland](https://img.shields.io/badge/Display-Wayland-1A1A1A?style=flat-square)](https://wayland.freedesktop.org/)
-[![Fedora](https://img.shields.io/badge/Tested_On-Fedora_Workstation-294172?style=flat-square&logo=fedora&logoColor=white)](https://fedoraproject.org/)
 
 `global-it` will be a GNOME Shell extension (GNOME 48+) that exposes exported DBus application menus in the top panel, with a Unity/macOS-style global menu workflow.
 
