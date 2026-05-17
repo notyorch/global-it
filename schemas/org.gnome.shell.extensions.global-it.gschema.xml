@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.global-it" path="/org/gnome/shell/extensions/global-it/">
+    <key name="enable-gtk3" type="b">
+      <default>true</default>
+      <summary>Enable GTK3 menu integration</summary>
+    </key>
+    <key name="enable-qt" type="b">
+      <default>true</default>
+      <summary>Enable Qt menu integration</summary>
+    </key>
+    <key name="enable-electron" type="b">
+      <default>true</default>
+      <summary>Enable Electron menu integration</summary>
+    </key>
+    <key name="show-app-icon" type="b">
+      <default>true</default>
+      <summary>Show focused app icon in panel</summary>
+    </key>
+    <key name="compact-mode" type="b">
+      <default>false</default>
+      <summary>Use compact panel text styling</summary>
+    </key>
+    <key name="menu-open-delay" type="i">
+      <default>120</default>
+      <summary>Hover delay in milliseconds before opening the menu</summary>
+    </key>
+    <key name="hide-without-menu" type="b">
+      <default>true</default>
+      <summary>Hide panel item when no menu is exported</summary>
+    </key>
+    <key name="debug-mode" type="b">
+      <default>false</default>
+      <summary>Enable debug logging to GNOME Shell journal</summary>
+    </key>
+    <key name="debug-perf-mode" type="b">
+      <default>false</default>
+      <summary>Enable performance instrumentation logging</summary>
+    </key>
+    <key name="stress-test-mode" type="b">
+      <default>false</default>
+      <summary>Enable crash-hardening stress simulation mode</summary>
+    </key>
+  </schema>
+</schemalist>

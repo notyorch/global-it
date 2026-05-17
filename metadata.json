@@ -1,0 +1,13 @@
+{
+  "uuid": "global-it@notyorch.github.io",
+  "name": "global-it",
+  "description": "Global menu integration for GNOME Shell on Fedora",
+  "version": 1,
+  "shell-version": [
+    "48",
+    "49",
+    "50"
+  ],
+  "url": "https://github.com/notyorch/global-it",
+  "settings-schema": "org.gnome.shell.extensions.global-it"
+}
